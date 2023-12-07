@@ -28,7 +28,7 @@ function App() {
         <Route path='/Marketing-digital' element={<Mkt/>} />
         <Route path='/Reclutamiento' element={<Reclutamiento/>} />
         <Route path='Noticias'element={<Noticias/>} />
-        <Route path='Proyectos'element={<Proyectos/>} />
+        <Route path='Proyectos'element={<Proyectos />} />
         <Route path='Cotizar'element={<Cotizar/>} />
 
       </Routes>

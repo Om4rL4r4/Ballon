@@ -13,11 +13,20 @@ function Servicios(){
             <MainBar />
             <LeftBar />
             <Opciones />
-            <div>
-            <video src={Colorful} autoPlay muted loop poster={Gradient}></video>
-            <Footer />
-
-            </div>
+            
+            <div className="opti">
+            <ul>
+                <li>Acerca de</li>
+                <li>Trabaja con Nosotros</li>
+                <li>Contáctanos</li>
+                <li>Aviso de Privacidad</li>
+                <li>Términos y Condiciones</li>
+                <li>Política de Cookies</li>
+            </ul>
+        </div>
+            
+            <video src={Colorful} autoPlay muted loop poster={Gradient} className='videito'></video>
+            
         </>
     )
 }

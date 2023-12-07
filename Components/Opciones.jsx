@@ -14,6 +14,8 @@ function Opciones(){
             <hr className='tx'></hr>
             <p className='tx'><Link to='/Reclutamiento'>RECLUTAMIENTO DE<br/>EQUIPOS DE ALTO DESEMPEÑO<br/>PARA DIGITAL</Link></p>
             <hr className='tx'></hr>
+
+            
         </div>
     )
 }
