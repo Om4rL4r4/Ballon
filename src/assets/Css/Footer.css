@@ -1,0 +1,19 @@
+.opti{
+    margin-left: 1000px;
+    width: auto;
+    position: absolute;
+    z-index: 50;
+    margin-top: 1034px;
+}
+.opti ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.opti li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+

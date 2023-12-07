@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+html{
+        max-width: 1920px;
+        max-height: 1077px;
+    }
+
+    video{
+        width: 1920px;
+        height: 1077px;
+        
+    }
+    
+.consul{
+        text-align: left;
+        font-family: Gabarito;
+        font-size: 100px;
+        letter-spacing: 3px;
+        color: #FFFFFFB3;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-bottom: 30px;
+        margin-top: 300px;
+        margin-left: 278px;
+        position: absolute;
+        
+        }
+
+.MainText{
+        margin-top: 436px;
+        margin-left: 278px;
+        width: 1240px;
+        height: 418px;
+        color: #FCFBFB;
+        opacity: 1;
+        position: absolute;
+        font-size: 26px;
+
+}
+
+.figura{
+        margin-top: 706px;
+        margin-left: 1577px;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+
+}

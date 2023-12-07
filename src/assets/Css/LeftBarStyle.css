@@ -1,0 +1,29 @@
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 27px;
+    margin-top: 327px;
+    margin-left: 55px;
+    z-index: 30;
+  }
+  
+  .main ul {
+    list-style-type: none;
+  }
+  
+  
+  .main li {
+    text-decoration: none;
+    transform: rotate(-90deg);
+    font-size: 27px; 
+    color: #fff;
+    margin-bottom: 100px;
+  }
+
+  .main a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #fff;
+}
+

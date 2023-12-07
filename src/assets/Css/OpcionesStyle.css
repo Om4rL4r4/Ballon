@@ -1,0 +1,36 @@
+.service{
+    z-index: 5;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 278px;
+}
+
+hr{
+    height: 1px;
+    color: #FFF;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.service p{
+text-align: left;
+font-family: Gabarito;
+font-size: 100px;
+letter-spacing: 3px;
+color: #FFFFFFB3;
+text-transform: uppercase;
+opacity: 1;
+margin-bottom: 30px;
+
+}
+
+.service .tx{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.service a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #FFFFFFB3;
+}
+

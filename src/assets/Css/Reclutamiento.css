@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+html{
+        width: 1920px;
+        height: 1159px;
+    }
+
+    .consul{
+        text-align: left;
+        font-family: Gabarito;
+        font-size: 80px;
+        letter-spacing: 3px;
+        color: #FFFFFFB3;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-bottom: 30px;
+        margin-top: 300px;
+        margin-left: 278px;
+        position: absolute;
+        z-index: 20;
+
+        }
+
+.MainText{
+        margin-top: 650px;
+        margin-left: 278px;
+        width: 1240px;
+        height: 418px;
+        color: #FCFBFB;
+        opacity: 1;
+        position: absolute;
+        font-size: 26px;
+        z-index: 20;
+
+}
+
+.MainText span{
+    font-weight: bold;
+}
+
+.figura{
+        margin-top: 767px;
+        margin-left: 1600px;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+
+}

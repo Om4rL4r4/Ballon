@@ -1,0 +1,43 @@
+
+
+.impulsamos{
+    position: absolute;
+margin-top: 405px;
+margin-left: 285px;
+width: 515px;
+height: 161px;
+/* UI Properties */
+opacity: 1;
+z-index: 2;
+
+}
+
+.t-uno{
+position: absolute;
+margin-top: 437px;
+margin-left: 830px;
+/* UI Properties */
+font-family: 'Gabarito', sans-serif;
+font-size: 80px;
+color:#ffffff;
+text-align: left;
+letter-spacing: 2.4px;
+opacity: 1;
+z-index: 2;
+}
+
+.t-dos{
+position: absolute;
+margin-top: 529px;
+margin-left: 278px;
+
+/* UI Properties */
+font-family: 'Gabarito', sans-serif;
+font-size: 80px;
+color:#ffffff;
+text-align: left;
+letter-spacing: 2.4px;
+opacity: 1;
+z-index: 2;
+
+}

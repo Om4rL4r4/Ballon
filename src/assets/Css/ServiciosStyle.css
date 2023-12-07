@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+
+html{
+    width: 1920px;
+    height: 2291px;
+}
+
+video{
+    width: 1920px;
+    height: 2291px;
+    
+  }
+
