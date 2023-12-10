@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+    
+    
+body{
+        width: 1920px;
+        height: 1261px;
+        background-color: #faf9f0;
+    }
+   
+    
+.topics div{
+    display: flex;
+    width: 398px;
+    height: 250px;
+    
+
+}
+
+.topics p{
+    color: black;
+}
+
+.topics .info{
+    position: absolute;
+    background-color: #552c98;
+    border-radius: 100px 0px 100px 100px;
+    width: 398px;
+    height: 250px;
+    margin-top: 308px;
+    margin-left: 278px;
+
+}
+.topics .info img{
+margin: auto;
+}
+.topics .tx1{
+    width: 414px;
+    height: 60px;
+    margin-top: 585px;
+    margin-left: 278px;
+    position: absolute;
+    text-align: left;
+    font-size: 25px;
+    font-family: Gabarito;
+    font-weight: bold;
+
+}
+
+
+.topics .Adquisicionimg{
+    position: absolute;
+    background-color: #d6e898;
+    border-radius: 100px 0px 100px 100px;
+    width: 398px;
+    height: 250px;
+    margin-top: 308px;
+    margin-left: 761px;
+
+}
+.topics .Adquisicionimg img{
+    margin: auto;
+    }
+.topics .tx2{
+        width: 414px;
+        height: 90px;
+        margin-top: 585px;
+        margin-left: 761px;
+        position: absolute;
+        text-align: left;
+        font-size: 25px;
+        font-family: Gabarito;
+        font-weight: bold;
+    
+    }
+
+.topics .IA{
+    position: absolute;
+    background-color: #eb6017;
+    border-radius: 100px 0px 100px 100px;
+    width: 398px;
+    height: 250px;
+    margin-top: 308px;
+    margin-left: 1244px;
+
+}
+.topics .IA img{
+    margin: auto;
+    }
+.topics .tx3{
+        width: 414px;
+        height: 90px;
+        margin-top: 585px;
+        margin-left: 1244px;
+        position: absolute;
+        text-align: left;
+        font-size: 25px;
+        font-family: Gabarito;
+        font-weight: bold;
+    
+    }
+
+.topics .Big{
+    position: absolute;
+    background-color: #3741af;
+    border-radius: 100px 0px 100px 100px;
+    width: 398px;
+    height: 250px;
+    margin-top: 725px;
+    margin-left: 278px;
+
+}
+.topics .Big img{
+    margin: auto;
+    }
+.topics .tx4{
+        width: 414px;
+        height: 60px;
+        margin-top: 1002px;
+        margin-left: 278px;
+        position: absolute;
+        text-align: left;
+        font-size: 25px;
+        font-family: Gabarito;
+        font-weight: bold;
+    
+    }
+
+.topics .Machine{
+    position: absolute;
+    background-color: #ecbe3e;
+    border-radius: 100px 0px 100px 100px;
+    width: 398px;
+    height: 250px;
+    margin-top: 725px;
+    margin-left: 761px;
+
+}
+.topics .Machine img{
+    margin: auto;
+    }
+
+.topics .tx5{
+        width: 414px;
+        height: 60px;
+        margin-top: 1002px;
+        margin-left: 761px;
+        position: absolute;
+        text-align: left;
+        font-size: 25px;
+        font-family: Gabarito;
+        font-weight: bold;
+    
+    }

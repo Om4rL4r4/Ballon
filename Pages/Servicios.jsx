@@ -9,25 +9,19 @@ import Opciones from '../Components/Opciones';
 
 function Servicios(){
     return (
-        <>
+        <div className='er'>
+            
+            
             <MainBar />
             <LeftBar />
             <Opciones />
+                      
+
+            <video src={Colorful} autoPlay muted loop poster={Gradient} className='video-fondo'></video>
             
-            <div className="opti">
-            <ul>
-                <li>Acerca de</li>
-                <li>Trabaja con Nosotros</li>
-                <li>Contáctanos</li>
-                <li>Aviso de Privacidad</li>
-                <li>Términos y Condiciones</li>
-                <li>Política de Cookies</li>
-            </ul>
+            <Footer />
         </div>
-            
-            <video src={Colorful} autoPlay muted loop poster={Gradient} className='videito'></video>
-            
-        </>
+        
     )
 }
 

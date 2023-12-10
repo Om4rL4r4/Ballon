@@ -14,7 +14,8 @@ function Home() {
     <MainText />
     <LeftBar />
     <Footer />
-    <video src={video} autoPlay muted loop poster={Gradiente}></video>
+    
+    <video src={video} autoPlay muted loop poster={Gradiente} className='video-fondo'></video>
   </div>
   
 

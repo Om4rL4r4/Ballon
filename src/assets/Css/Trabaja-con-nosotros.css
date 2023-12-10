@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+html{
+        width: 1920px;
+        height: 1328px;
+        background-color: #FAF9F0;
+        
+    }
+
+
+.consul{
+    color: black;
+    width: 1268px;
+    height: 276px;
+    margin-top: 332px;
+    margin-left: 278px;
+    text-align: left;
+    font-family: Gabarito;
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+
+.MainText{
+    color: black;
+    width: 1268px;
+    height: 130px;
+    margin-top: 635px;
+    margin-left: 278px;
+    text-align: left;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 26px;
+    letter-spacing: 3px;
+    opacity: 1;
+    position: absolute;
+}
+
+.MainText span{
+    color: #EB6017;
+}
+
+.name{
+    color: #1a1a1a;
+    width: 109px;
+    height: 31px;
+    margin-top: 828px;
+    margin-left: 278px;
+    position: absolute;
+    font-family: Gabarito;
+    font-size: 26px;
+
+
+}
+
+.mail{
+    color: #1a1a1a;
+    width: 86px;
+    height: 31px;
+    margin-top: 828px;
+    margin-left: 724px;
+    position: absolute;
+    font-family: Gabarito;
+    font-size: 26px;
+
+}
+
+.cv{
+    color: #1a1a1a;
+    width: 178px;
+    height: 31px;
+    margin-top: 828px;
+    margin-left: 1174px;
+    position: absolute;
+    font-family: Gabarito;
+    font-size: 26px;
+    
+
+}
+
+.rectangle{
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 31px;
+    position: absolute;
+    width: 273px;
+    height: 62px;
+    margin-top: 812px;
+    margin-left: 1146px;
+}
+hr{
+    width: 350px;
+}
+
+.Colors{
+    width: 298px;
+    height: 298px;
+    margin-top: 923px;
+    margin-left: 1529px;
+    position: absolute;
+}

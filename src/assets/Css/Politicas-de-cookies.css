@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+    
+    
+    body{
+        width: 1920px;
+        height: 1782px;
+        background-color: #faf9f0;
+
+    }
+    
+ .text{
+    width: 1268px;
+    height: 1218px;
+    color: black;
+    margin-top: 332px;
+    margin-left: 278px;
+    position: absolute;
+    font-size: 26px;
+    text-align: left;
+    font-family: 'Red Hat Display', sans-serif;
+
+ }

@@ -29,7 +29,7 @@ function Mkt(){
         <MainBar />
         <LeftBar />
         <Footer />
-        <video src={video} autoPlay muted loop poster={imag}></video>
+        <video src={video} autoPlay muted loop poster={imag} className='videito'></video>
 
     </>
 

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+html{
+        max-width: 1920px;
+        max-height: 1544px;
+    }
+
+    video{
+        width: 1920px;
+        height: 1544px;
+        
+    }
+    
+.pregunta{
+        text-align: left;
+        font-family: Gabarito;
+        font-size: 100px;
+        letter-spacing: 3px;
+        color: #fcfbfb;
+        opacity: 1;
+        margin-top: 274px;
+        margin-left: 278px;
+        width: 1268px;
+        height: 381px;
+        position: absolute;
+        
+        }
+
+
+.mainText{
+        margin-top: 684px;
+        margin-left: 278px;
+        width: 1268px;
+        height: 124px;
+        color: #fff;
+        opacity: 1;
+        position: absolute;
+        font-size: 26px;
+        font-family: 'Red Hat Display', sans-serif;
+        z-index: 10;
+}
+
+.form{
+    position: relative;
+    width: 1364px;
+    height: 562px;
+    margin-top: 842px;
+    margin-left: 278px;
+    background-color: #fff;
+    border-radius: 100px 0px 100px 100px;
+    opacity: 0.3;
+}
+
+
+ .nombre{
+    width: 109px;
+    height: 31px;
+    margin-top: 879px;
+    margin-left: 354px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+}
+
+
+.apellido{
+    width: 120px;
+    height: 31px;
+    margin-top: 879px;
+    margin-left: 969px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+
+}
+
+.cargo{
+    width: 202px;
+    height: 31px;
+    margin-top: 962px;
+    margin-left: 354px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+
+}
+
+.empresa{
+    width: 117px;
+    height: 31px;
+    margin-top: 962px;
+    margin-left: 969px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+
+}
+
+ .mail{
+    width: 293px;
+    height: 31px;
+    margin-top: 1057px;
+    margin-left: 354px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+
+}
+
+.phone{
+    width: 131px;
+    height: 31px;
+    margin-top: 1057px;
+    margin-left: 969px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+
+}
+
+.notas{
+    width: 84px;
+    height: 31px;
+    margin-top: 1168px;
+    margin-left: 354px;
+    font-size: 26px;
+    font-family: Gabarito;
+    color: #fff;
+    position: absolute;
+    z-index: 31;
+}
+
+button{
+    width: 149px;
+    height: 58px;
+    margin-top: 1155px;
+    margin-left: 969px;
+    background-color: #eb6017;
+    border: #eb6017;
+    border-radius: 10px;
+    position: absolute;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,173 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+        }
+        
+        
+html{
+            width: 1920px;
+            height: 1460px;
+        }
+        
+.video-fondo{
+        width: 1920px;
+        height: 1460px;
+            
+          }
+    
+.msj{
+        text-align: left;
+        font-family: Gabarito;
+        font-size: 80px;
+        letter-spacing: 3px;
+        color: #FFF;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-top: 328px;
+        margin-left: 278px;
+        position: absolute;
+        width: 1278px;
+        height: 276px;
+        
+        }
+
+
+        .form{
+            position: absolute;
+            width: 1364px;
+            height: 559px;
+            margin-top: 716px;
+            margin-left: 278px;
+            background-color: #fff;
+            border-radius: 100px 0px 100px 100px;
+            opacity: 0.3;
+            z-index: 25;
+        }
+
+         .tema{
+            width: 856px;
+            height: 31px;
+            margin-top: 788px;
+            margin-left: 354px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+        .tema span{
+            font-size: 16px;
+            font-family: Gabarito;
+
+        }
+
+       
+
+         .nombre{
+            width: 109px;
+            height: 31px;
+            margin-top: 879px;
+            margin-left: 354px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+        }
+
+        .apellido{
+            width: 120px;
+            height: 31px;
+            margin-top: 879px;
+            margin-left: 969px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+        .cargo{
+            width: 202px;
+            height: 31px;
+            margin-top: 962px;
+            margin-left: 354px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+        .empresa{
+            width: 117px;
+            height: 31px;
+            margin-top: 962px;
+            margin-left: 969px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+         .mail{
+            width: 293px;
+            height: 31px;
+            margin-top: 1057px;
+            margin-left: 354px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+        .phone{
+            width: 131px;
+            height: 31px;
+            margin-top: 1057px;
+            margin-left: 969px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+
+        }
+
+        .notas{
+            width: 84px;
+            height: 31px;
+            margin-top: 1168px;
+            margin-left: 354px;
+            font-size: 26px;
+            font-family: Gabarito;
+            color: #fff;
+            position: absolute;
+            z-index: 31;
+        }
+
+        button{
+            width: 149px;
+            height: 58px;
+            margin-top: 1155px;
+            margin-left: 969px;
+            background-color: #eb6017;
+            border: #eb6017;
+            border-radius: 10px;
+            position: absolute;
+            color: #fff;
+            font-size: 26px;
+            font-family: 'Red Hat Display', sans-serif;
+            font-weight: bold;
+        }
+
+        

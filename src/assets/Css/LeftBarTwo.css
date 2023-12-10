@@ -1,4 +1,4 @@
-.main {
+.principal {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -9,24 +9,22 @@
     z-index: 30;
   }
   
-  .main ul {
+  .principal ul {
     list-style-type: none;
   }
   
   
-  .main li {
+  .principal li {
     text-decoration: none;
     transform: rotate(-90deg);
     font-size: 27px; 
-    color: #fff;
     margin-bottom: 100px;
   }
 
-
-  .main li a{
+  .principal li a{
     text-decoration:none;
-    color: #fff;
-
+    color: #000000;
   }
-  
+
+ 
 

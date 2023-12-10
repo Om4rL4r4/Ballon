@@ -1,21 +1,23 @@
-.opti{
+.opciones{
     margin-left: 1000px;
+    width: auto;
     position: absolute;
-    z-index: 20;
+    z-index: 2;
+    margin-top: 90%;
 }
-.opti ul {
+.opciones ul {
     list-style-type: none;
     padding: 0;
 }
 
-.opti li {
+.opciones li {
     display: inline-block;
     margin-right: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
-.opti li a{
+.opciones li a{
     text-decoration:none;
-    color: #fff;
+    color: #000;
 }

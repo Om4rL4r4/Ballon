@@ -3,33 +3,16 @@ margin: 0;
 padding: 0;
 box-sizing: 0;
 }
-.videito{
+
+
+body{
+    width: 1920px;
+    height: 2291px;
+}
+
+.video-fondo{
     width: 1920px;
     height: 2291px;
     
   }
-
-html{
-    width: 1920px;
-    height: 2291px;
-}
-
-
-.opti{
-    margin-left: 1000px;
-    width: auto;
-    position: absolute;
-    margin-top: 2291px;
-}
-.opti ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.opti li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 16px;
-    color: #fff;
-}
 

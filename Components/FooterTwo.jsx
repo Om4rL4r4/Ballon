@@ -1,10 +1,10 @@
-import '../src/assets/Css/Footer.css'
+import '../src/assets/Css/FooterTwo.css'
 import { Link } from 'react-router-dom';
 
-function Footer (){
+function FooterTwo (){
     return(
         <>
-        <div className="opti">
+        <div className="opciones">
             <ul>
                 <li><Link to='/Acerca-de'>Acerca de</Link></li>
                 <li><Link to='/Trabaja-con-nosotros'>Trabaja con Nosotros</Link></li>
@@ -19,4 +19,4 @@ function Footer (){
     )
 }
 
-export default Footer;
+export default FooterTwo;
