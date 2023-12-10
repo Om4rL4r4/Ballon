@@ -5,7 +5,7 @@ box-sizing: 0;
 }
 
 
-body{
+.er{
     width: 1920px;
     height: 2291px;
 }
@@ -13,6 +13,7 @@ body{
 .video-fondo{
     width: 1920px;
     height: 2291px;
+    object-fit: cover;
     
   }
 

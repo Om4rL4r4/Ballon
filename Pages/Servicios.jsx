@@ -15,11 +15,9 @@ function Servicios(){
             <MainBar />
             <LeftBar />
             <Opciones />
-                      
-
-            <video src={Colorful} autoPlay muted loop poster={Gradient} className='video-fondo'></video>
-            
             <Footer />
+            <video src={Colorful} autoPlay muted loop poster={Gradient} className='video-fondo'></video>
+
         </div>
         
     )
