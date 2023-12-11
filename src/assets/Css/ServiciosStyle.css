@@ -4,16 +4,15 @@ padding: 0;
 box-sizing: 0;
 }
 
-
 .er{
     width: 1920px;
     height: 2291px;
+    overflow: hidden;
 }
 
-.video-fondo{
-    width: 1920px;
-    height: 2291px;
-    object-fit: cover;
-    
-  }
 
+.video-fondo{
+width: 1920px;
+min-height: 2291px;
+object-fit: cover;
+}

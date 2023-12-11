@@ -11,11 +11,12 @@ function Servicios(){
     return (
         <div className='er'>
             
-            
             <MainBar />
             <LeftBar />
             <Opciones />
             <Footer />
+
+            
             <video src={Colorful} autoPlay muted loop poster={Gradient} className='video-fondo'></video>
 
         </div>

@@ -6,7 +6,7 @@ import Bigdata from '../src/assets/Images/Big.png'
 
 function Big(){
     return(
-        <>
+        <div className='bigMain'>
         <p className='pregunta'>EVOLUCIÓN DEL BIG DATA Y LA ANALÍTICA AVANZADA EN EL ECOSISTEMA DIGITAL</p>
         <div className='orange'></div>
         <img src={Bigdata} className='bigdata'/>
@@ -22,7 +22,7 @@ function Big(){
         <LeftBarTwo />
         <FooterTwo />
 
-    </>
+    </div>
     )
 
 }

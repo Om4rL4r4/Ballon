@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 
 function Contactanos(){
     return(
-        <>
+        <div className='msjMain'>
 
         <p className='msj'>DÉJANOS UN MENSAJE<br /> Y NOS PONDREMOS EN CONTACTO CONTIGO.</p>
         <div className='form'></div>
@@ -30,7 +30,7 @@ function Contactanos(){
         <video src={vid} autoPlay muted loop poster={imag} className='video-fondo'></video>
 
 
-    </>
+    </div>
     )
 
 }

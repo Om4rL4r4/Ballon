@@ -4,16 +4,16 @@
   box-sizing: 0;
   }
 
-html, body{
+.whole{
       width: 1920px;
       height: 1080px;
   }
 
  
-.video-fondo{
+.video-fondo-home{
   width: 1920px;
-  max-height: 1080px;
+      height: 1080px;
   object-fit: cover;
-  position: absolute;
+  position: relative;
 }
 

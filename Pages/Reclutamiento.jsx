@@ -2,15 +2,15 @@ import '../src/assets/Css/Reclutamiento.css';
 import MainBar from '../Components/MainBar';
 import LeftBar from '../Components/LeftBar';
 import Footer from '../Components/Footer';
-import video from '../src/assets/Video/Blur-consultoria.mp4'
+import Ballsreclu from '../src/assets/Video/Blur-consultoria.mp4'
 import imag from '../src/assets/Images/Blur-img.png';
-import figura from '../src/assets/Images/Balls.png'
+import Ballsimg from '../src/assets/Images/Balls.png'
 
 function Reclutamiento(){
     return(
-        <>
-        <p className='consul'>RECLUTAMIENTO DE<br/>EQUIPOS DE ALTO DESEMPEÑO<br/>PARA DIGITAL</p>
-        <p className='MainText'>
+        <div className='recluMain'>
+        <p className='recluTitle'>RECLUTAMIENTO DE<br/>EQUIPOS DE ALTO DESEMPEÑO<br/>PARA DIGITAL</p>
+        <p className='recluText'>
         La magia no está completa sin el equipo adecuado. 
         Con años de experiencia en corporativos globales, Balloon Consulting conoce la fórmula para construir equipos estelares. 
         Te ayudamos a cerrar la brecha digital, asegurándonos de que no solo tengas la estrategia correcta, sino también las mentes brillantes para llevarla a cabo. 
@@ -20,13 +20,13 @@ function Reclutamiento(){
 
 
         </p>
-        <img src={figura} className='figura'/>
+        <img src={Ballsimg} className='Ballsimg'/>
         <MainBar />
         <LeftBar />
         <Footer />
-        <video src={video} autoPlay muted loop poster={imag}></video>
+        <video src={Ballsreclu} autoPlay muted loop poster={imag} className='Ballsreclu'></video>
 
-    </>
+    </div>
 
     )
 }

@@ -3,19 +3,21 @@
     padding: 0;
     box-sizing: 0;
     }
+
+.mktMain{
+        width: 1920px;
+        max-height: 1184px;
+    }
     
-    .videito{
+.vid-mkt{
         width: 1920px;
         height: 1184px;
         
       }
 
-body{
-        width: 1920px;
-        height: 1184px;
-    }
 
-    .consul{
+
+    .mktTitle{
         text-align: left;
         font-family: Gabarito;
         font-size: 80px;
@@ -30,10 +32,10 @@ body{
         
         }
 
-.MainText{
+.mktText{
 
-        margin-top: 200px;
-        margin-left: 378px;
+        margin-top: 416px;
+        margin-left: 278px;
         width: 1240px;
         height: 418px;
         color: #FCFBFB;
@@ -43,15 +45,15 @@ body{
         z-index: 20;
         }
 
-.MainText span{
+.mktText span{
     font-weight: bold;
     position: absolute;
 
 }
 
-.figura{
-        margin-top: 767px;
-        margin-left: 1600px;
+.Flower{
+        margin-top: 819px;
+        margin-left: 1577px;
         width: 250px;
         height: 250px;
         position: absolute;

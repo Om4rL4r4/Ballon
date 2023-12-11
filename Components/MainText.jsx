@@ -4,8 +4,8 @@ import Grupo from '../src/assets/Images/Grupo_163.png'
 
 function MainText (){
     return(
-        <>  
-        <div>
+         
+        <div className='txtMain'>
                 <img src={Grupo} className='impulsamos'/>
                 <p className='t-uno'>LA INDUSTRIA</p>
                 <p className='t-dos'>A TRAVÉS DE LA CONSULTORÍA<br/>
@@ -13,8 +13,6 @@ function MainText (){
 
         </div>
                 
-            
-        </>
 
     )
 }

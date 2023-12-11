@@ -6,7 +6,7 @@ import MainBar from '../Components/MainBar';
 
 function Terminos(){
     return (
-        <>
+        <div className='terminosMain'>
         <MainBar />
         <LeftBarTwo />  
             
@@ -20,7 +20,7 @@ function Terminos(){
                                 
         <FooterTwo />
             
-        </>
+        </div>
         
     )
 }

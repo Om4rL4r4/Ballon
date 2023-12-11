@@ -1,12 +1,11 @@
 import '../src/assets/Css/Proyectos.css';
 import MainBar from '../Components/MainBar.jsx';
 import MainText from '../Components/MainText.jsx';
-import video from '../src/assets/Video/pexels.mp4';
+import videoProyectos from '../src/assets/Video/pexels.mp4';
 import LeftBar from '../Components/LeftBar.jsx';
 import React from 'react';
 import Gradiente from '../src/assets/Images/pexels-img.png';
 import reloj from '../src/assets/Images/reloj.png';
-import flor from '../src/assets/Images/Flor.png';
 import Arco from '../src/assets/Images/Arco.png';
 import Medio from '../src/assets/Images/Medio.png'
 import Blur from '../src/assets/Images/Blur-img.png'
@@ -28,7 +27,7 @@ function Proyectos() {
     <MainText />
     <LeftBar />
     
-    <video src={video} autoPlay muted loop poster={Gradiente}></video>
+    
 
     </div>
     
@@ -92,20 +91,12 @@ function Proyectos() {
         <button>CONTÁCTANOS Y TE AYUDAMOS</button>
         
 
-        <div className="opti">
-            <ul>
-                <li>Acerca de</li>
-                <li>Trabaja con Nosotros</li>
-                <li>Contáctanos</li>
-                <li>Aviso de Privacidad</li>
-                <li>Términos y Condiciones</li>
-                <li>Política de Cookies</li>
-            </ul>
-        </div>
+        
         <img src={BG} className='BG'/>
         
         
     </div>
+    <video src={videoProyectos} autoPlay muted loop poster={Gradiente} className='videoProyectos'></video>
         
   </div>
   

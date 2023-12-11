@@ -6,7 +6,7 @@ import MainBar from '../Components/MainBar';
 function Politicasdecookies(){
 
     return(
-        <>
+        <div className='cookieMain'>
         <MainBar />
         <LeftBarTwo />  
             
@@ -20,7 +20,7 @@ function Politicasdecookies(){
                                 
         <FooterTwo />
             
-        </>
+        </div>
     )
 }
 export default Politicasdecookies;

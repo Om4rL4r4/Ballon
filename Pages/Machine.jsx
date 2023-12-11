@@ -6,7 +6,7 @@ import Machineimg from '../src/assets/Images/Machine.png'
 
 function Machine(){
     return(
-        <>
+        <div className='machineMain'>
         <p className='pregunta'>MACHINE LEARNING Y EL AUGE DE LOS NUEVOS CONCEPTOS EN EL ECOSISTEMA DIGITAL</p>
         <div className='green'></div>
         <img src={Machineimg} className='machine'/>
@@ -42,7 +42,7 @@ function Machine(){
         <LeftBarTwo />
         <FooterTwo />
 
-    </>
+    </div>
     )
 
 }

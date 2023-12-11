@@ -6,7 +6,7 @@ import info from '../src/assets/Images/info.png'
 
 function Transformacion(){
     return(
-        <>
+        <div className='transMain'>
         <p className='pregunta'>POR QUÉ LAS ORGANIZACIONES FALLAN EN LA TRANSFORMACIÓN DIGITAL</p>
         <div className='green'></div>
         <img src={info} className='info'/>
@@ -41,7 +41,7 @@ function Transformacion(){
         <LeftBarTwo />
         <FooterTwo />
 
-    </>
+    </div>
     )
 
 }

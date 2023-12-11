@@ -8,9 +8,10 @@ import figura from '../src/assets/Images/Blur-img.png'
 
 function Consultoria(){
     return(
-        <>
-        <p className='consul'>CONSULTORÍA</p>
-        <p className='MainText'>
+
+    <div className='consulMain'>
+        <p className='consulTitle'>CONSULTORÍA</p>
+        <p className='consulText'>
 
         Imagínate un mundo donde cada paso que das en el terreno digital esté respaldado por expertos. 
         <br/>Balloon Consulting es tu guía, acompañándote en tu viaje, diseñando e implementando las tecnologías más avanzadas para llevar tu negocio al próximo nivel.
@@ -25,7 +26,7 @@ function Consultoria(){
         <Footer />
         <video src={vid} autoPlay muted loop poster={imag}></video>
 
-    </>
+    </div>
     )
 
 }

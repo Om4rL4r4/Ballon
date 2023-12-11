@@ -4,13 +4,13 @@ import LeftBar from '../Components/LeftBar';
 import Footer from '../Components/Footer';
 import video from '../src/assets/Video/Blur-consultoria.mp4'
 import imag from '../src/assets/Images/Blur-img.png';
-import figura from '../src/assets/Images/Flor.png'
+import Flower from '../src/assets/Images/Flor.png'
 
 function Mkt(){
     return(
-        <>
-        <p className='consul'>MARKETING DIGITAL</p>
-        <p className='MainText'>
+        <div className='mktMain'>
+        <p className='mktTitle'>MARKETING DIGITAL</p>
+        <p className='mktText'>
         En la intersección del mundo físico y digital, Balloon Consulting crea magia. No somos simplemente estrategas; somos magos del marketing, fusionando realidades y superando expectativas. Ya sea potenciando tu presencia con SEO/ASO, creando campañas impactantes o implementando estrategias omnicanal, te llevamos de la mano en este emocionante viaje.<br/><br/> 
         Bajo un concepto Phygital construimos tu estrategia de marketing uniendo el mundo físico con el digital potenciando el mismo. No somos estrategas comunes, somos estrategas innovadores, disruptivos y listos para evolucionar tus kpis de mercadotecnia y crecimiento de negocio. <br/><br/>
         <span>
@@ -25,13 +25,13 @@ function Mkt(){
         
 
         </p>
-        <img src={figura} className='figura'/>
+        <img src={Flower} className='Flower'/>
         <MainBar />
         <LeftBar />
         <Footer />
-        <video src={video} autoPlay muted loop poster={imag} className='videito'></video>
+        <video src={video} autoPlay muted loop poster={imag} className='vid-mkt'></video>
 
-    </>
+    </div>
 
     )
 }

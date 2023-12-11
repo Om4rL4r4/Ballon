@@ -4,9 +4,9 @@
     box-sizing: 0;
     }
 
-body{
+.TCN{
         width: 1920px;
-        height: 1328px;
+        max-height: 1328px;
         background-color: #FAF9F0;
         
     }
@@ -47,26 +47,25 @@ body{
 
 .name{
     color: #1a1a1a;
-    width: 109px;
+    width: 89px;
     height: 31px;
     margin-top: 828px;
     margin-left: 278px;
     position: absolute;
     font-family: Gabarito;
     font-size: 26px;
-
-
+    
 }
 
-.mail{
+.mailing{
     color: #1a1a1a;
     width: 86px;
     height: 31px;
     margin-top: 828px;
     margin-left: 724px;
-    position: absolute;
     font-family: Gabarito;
     font-size: 26px;
+    position: absolute;
 
 }
 
@@ -83,6 +82,8 @@ body{
 
 }
 
+
+
 .rectangle{
     border: 1px solid rgba(112, 112, 112, 1);
     border-radius: 31px;
@@ -91,9 +92,6 @@ body{
     height: 62px;
     margin-top: 812px;
     margin-left: 1146px;
-}
-hr{
-    width: 350px;
 }
 
 .Colors{

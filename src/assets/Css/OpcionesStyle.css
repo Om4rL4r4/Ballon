@@ -3,6 +3,8 @@
     position: absolute;
     margin-top: 340px;
     margin-left: 278px;
+    width: auto;
+    height: auto;
 }
 
 hr{
@@ -32,23 +34,4 @@ margin-bottom: 30px;
 .service a:link, a:visited, a:active {
     text-decoration:none;
     color: #FFFFFFB3;
-}
-
-
-
-.opti{
-    margin-left: 1000px;
-    width: auto;
-    position: absolute;
-}
-.opti ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.opti li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 16px;
-    color: #fff;
 }

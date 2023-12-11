@@ -6,7 +6,7 @@ import FooterTwo from '../Components/FooterTwo.jsx';
 
 function Adquisicion(){
     return(
-        <>
+        <div className='adquisicionMain'>
         <p className='pregunta'>ADQUISICIÓN DIGITAL: EL CAC Y LA IMPORTANCIA DE UNA ESTRATEGIA ONLINE RENTABLE</p>
         <div className='yellow'></div>
         <img src={Adquisicionimg} className='Adquisicionimg'/>
@@ -49,7 +49,7 @@ function Adquisicion(){
         <MainBar />
         <LeftBarTwo />
 
-    </>
+    </div>
     )
 
 }

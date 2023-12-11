@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 
 function Noticias(){
     return(
-        <>
+        <div className='noticiasMain'>
         <MainBar />
         
         <LeftBarTwo />
@@ -52,7 +52,7 @@ function Noticias(){
         <FooterTwo />
         
 
-        </>
+        </div>
     )
 }
 

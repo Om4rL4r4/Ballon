@@ -4,12 +4,18 @@
     box-sizing: 0;
     }
 
-body{
+.recluMain{
         width: 1920px;
-        height: 1159px;
+        max-height: 1159px;
     }
 
-    .consul{
+.Ballsreclu{
+        width: 1920px;
+        height: 1077px;
+        
+    }
+
+.recluTitle{
         text-align: left;
         font-family: Gabarito;
         font-size: 80px;
@@ -25,7 +31,7 @@ body{
 
         }
 
-.MainText{
+.recluText{
         margin-top: 650px;
         margin-left: 278px;
         width: 1240px;
@@ -38,11 +44,11 @@ body{
 
 }
 
-.MainText span{
+.recluText span{
     font-weight: bold;
 }
 
-.figura{
+.Ballsimg{
         margin-top: 767px;
         margin-left: 1600px;
         width: 250px;

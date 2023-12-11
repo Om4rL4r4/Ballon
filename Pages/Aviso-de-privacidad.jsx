@@ -6,7 +6,7 @@ import MainBar from '../Components/MainBar';
 
 function Avisodeprivacidad(){
     return (
-        <>
+        <div className='aviso'>
         <MainBar />
         <LeftBarTwo />  
             
@@ -20,7 +20,7 @@ function Avisodeprivacidad(){
                                 
         <FooterTwo />
             
-        </>
+        </div>
         
     )
 }

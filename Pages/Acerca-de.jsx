@@ -14,7 +14,7 @@ import Medio from '../src/assets/Images/medio-orange.png';
 
 function Acercade(){
     return(
-        <>
+        <div className='acercaMain'>
         <p className='consul'>SOMOS LA FIRMA LÍDER EN SERVICIOS PROFESIONALES PARA EL ECOSISTEMA DIGITAL</p>
         <p className='MainText'>
         Basado en retorno para México y Estados Unidos, ofreciendo un enfoque de 360 grados en las áreas de Auditoría de Medios, Adquisición Digital, Growth, Marketing y Transformación Digital para todo tipo de compañías e industrias y Con Balloon converge la tecnología con la creatividad construyendo modelos adhoc que permitan el crecimiento, expansión y rentabilidad de comercios en el ecosistema digital.<br /><br />
@@ -39,7 +39,7 @@ function Acercade(){
         <Footer />
         <video src={video} autoPlay muted loop poster={imag} className='video-fondo'></video>
 
-    </>
+    </div>
     )
 }
 

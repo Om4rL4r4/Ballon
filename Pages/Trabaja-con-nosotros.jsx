@@ -7,7 +7,7 @@ import LeftBarTwo from '../Components/LeftBarTwo.jsx'
 
 function Trabajaconnosotros(){
     return(
-        <>
+        <div className='TCN'>
         
         <p className='consul'>CREEMOS QUE EL TALENTO<br /> ES CLAVE EN CUALQUIER ORGANIZACIÓN.</p>
         <p className='MainText'>
@@ -15,8 +15,8 @@ function Trabajaconnosotros(){
         <span>¡Te estamos esperando!</span>
         </p>
         
-            <p className='name'>NOMBRE<br /><br /><hr></hr></p>
-            <p className='mail'>E-MAIL<br /><br /><hr></hr></p>
+            <p className='name'>NOMBRE</p>
+            <p className='mailing'>E-MAIL</p>
             <p className='cv'>AJUNTAR CV</p>
             <div className='rectangle'></div>
         
@@ -27,7 +27,7 @@ function Trabajaconnosotros(){
         <MainBar />
         <FooterTwo />
 
-    </>
+    </div>
     )
 }
 

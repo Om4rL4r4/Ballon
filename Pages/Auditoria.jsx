@@ -8,9 +8,9 @@ import figura from '../src/assets/Images/reloj.png'
 
 function Auditoria(){
     return(
-        <>
-        <p className='consul'>AUDITORÍA DIGITAL</p>
-        <p className='MainText'>
+        <div className='auditoriaMain'>
+        <p className='auditoriaTitle'>AUDITORÍA DIGITAL</p>
+        <p className='auditoriaText'>
         Navegar por el mundo digital sin un mapa puede ser desafiante. 
         Pero con Balloon Consulting, recibes una lente especializada para examinar tu inversión digital. 
         No solo identificamos dónde podrías tropezar, sino que te equipamos con un plan detallado, centrado en nuestro modelo propietario CPA, asegurando que cada paso que das esté optimizado.<br/><br/><br/>
@@ -25,7 +25,7 @@ function Auditoria(){
         <Footer />
         <video src={video} autoPlay muted loop poster={imag}></video>
 
-    </>
+    </div>
     )
 }
 

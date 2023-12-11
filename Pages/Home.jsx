@@ -1,7 +1,7 @@
 import '../src/index.css';
 import MainBar from '../Components/MainBar.jsx';
 import MainText from '../Components/MainText.jsx';
-import video from '../src/assets/Video/video.mp4';
+import videoHome from '../src/assets/Video/video.mp4';
 import Footer from '../Components/Footer.jsx';
 import LeftBar from '../Components/LeftBar.jsx';
 import React from 'react';
@@ -15,7 +15,7 @@ function Home() {
     <LeftBar />
     <Footer />
     
-    <video src={video} autoPlay muted loop poster={Gradiente} className='video-fondo'></video>
+    <video src={videoHome} autoPlay muted loop poster={Gradiente} className='video-fondo-home'></video>
   </div>
   
 

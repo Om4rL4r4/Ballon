@@ -4,12 +4,17 @@
     box-sizing: 0;
     }
 
-body{
+.modelosMain{
         width: 1920px;
-        height: 1133px;
+        max-height: 1133px;
     }
 
-    .consul{
+    .back-video{
+        width: 1920px;
+        height: 1133px;
+
+    }
+.modelosTitle{
         text-align: left;
         font-family: Gabarito;
         font-size: 80px;
@@ -25,7 +30,7 @@ body{
         
         }
 
-.MainText{
+.modelosText{
         margin-top: 546px;
         margin-left: 278px;
         width: 1240px;
@@ -39,7 +44,7 @@ body{
 
 }
 
-.MainText span{
+.modelosText span{
     font-weight: bold;
 }
 

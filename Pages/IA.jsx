@@ -6,7 +6,7 @@ import IAimg from '../src/assets/Images/IA.png'
 
 function IA(){
     return(
-        <>
+        <div className='iaMain'>
         <p className='pregunta'>INTELIGENCIA ARTIFICIAL: REVOLUCIONANDO LAS VENTAS DIGITALES</p>
         <div className='purple'></div>
         <img src={IAimg} className='IA'/>
@@ -24,7 +24,7 @@ function IA(){
         <LeftBarTwo />
         <FooterTwo />
 
-    </>
+    </div>
     )
 
 }
